@@ -1,0 +1,107 @@
+.navbar{
+	margin: 0px;
+	border-radius: 0px;
+}
+
+.redfont{
+	color: #cc2900 ;
+}
+
+#logo{
+	margin-top: -13px;
+	margin-bottom: 5px;
+	height: 45px;
+	
+}
+
+#part1{
+margin: 0px;
+background-image: url('../images/index.jpg');
+background-size: cover;
+height: 720px;
+padding: 100px;
+}
+
+#content{
+	background-color: #ffffff;
+	opacity: 0.5;
+	padding: 30px;
+}
+
+#part2{
+	padding: 20px;
+	height: 300px;
+	margin-left: 30px;  
+}
+
+#ordering{
+	background-color: #FCFCFC;
+	padding: 5px;
+	margin: 10px;	
+	height: 300px;
+	width: 31%;
+	float: left;
+}
+
+
+#packaging{
+	background-color: #FCFCFC;
+	padding: 5px;
+	margin: 10px;
+	height: 300px;	
+	width: 31%;
+	float: left;
+}
+
+
+#delivery{
+	background-color: #FCFCFC;
+	padding: 5px;
+	margin: 10px;
+	height: 300px;
+	float: left;
+	width: 31%;	
+}
+
+#contact{
+	background-color: #cc2900;
+	height: 300px;
+	margin-top: 60px;
+	padding: 30px;
+	font-size: 30px;
+}
+
+#rahul{
+	padding: 70px;
+	border-right: 3px solid #ffffff; 
+}
+
+#kailash
+{
+	height: 300px;
+	width: 300px;
+}
+
+#anurag{
+	padding: 70px;
+}
+#text
+{
+	color: red;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	margin-left: 535px;
+	font-weight: bolder;
+}
+#sad
+{	
+	margin: 0 0 0 410px;
+	margin-top: 10px; 
+	width: 400px;
+	height: 400px;
+}
+#order
+{
+	margin-left: 580px;
+	margin-bottom: 40px;
+}

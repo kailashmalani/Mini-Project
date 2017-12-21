@@ -1,0 +1,77 @@
+body{
+	overflow-x: hidden;
+}
+
+#head{
+	font-size: 30px;
+}
+
+li{
+	list-style-type: none;
+
+}
+
+#items{
+	margin-top: 40px;	
+}
+
+.item1{
+	width: 31%;
+	height: 350px;
+	padding: 10px;
+	margin-right: 15px; 
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item2{
+	width: 31%;
+	height: 350px;
+	padding: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item3{
+	width: 31%;
+	height: 350px;
+	padding: 10px;
+	margin-left: 15px;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dishimg{
+	height: 60%;
+	width: 80%;
+	margin-left: 10px;
+}
+
+.dishnm{
+	padding: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	color: #cc2900 ;
+	font-weight: bold;
+}
+
+.desc{
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.price{
+	padding-top: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.quantity{
+
+	width: 60px;
+	float: right;
+}

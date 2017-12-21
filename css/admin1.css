@@ -1,0 +1,40 @@
+.item1{
+	width: 325px;	
+	height: 350px;
+	margin-right: 25px; 
+	margin-top: 25px;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dishimg{
+	height: 60%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.dishnm{
+	padding: 10px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	color: #cc2900 ;
+	font-weight: bold;
+}
+
+.desc{
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.price{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+
+#preview{
+	padding-left: 470px;
+	font-size: 30px;
+}
