@@ -134,3 +134,11 @@ Ex:
 }
 
 Steps to run the project:
+a)Restore the database 
+Using the mongorestore command restore the Foodelight database which is present in dump/Foodelight folder.
+
+b)Localhost
+Copy all the folders(excluding dump/Feoodelight) and files into the var/www/html folder i.e in the default root folder of the web server.
+
+c)Run
+open the index.php to start the project
