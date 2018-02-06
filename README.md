@@ -49,3 +49,88 @@ Operating System : Ubuntu 14.04 64 bit OS
 Front End : HTML, CSS, Javascript, Bootstrap.
 Server Side Script : PHP
 Database : MongoDB 3.2 64bit version
+
+Database Name : Foodelight
+Collections:
+1)User
+It stores the basic information of the customer.
+Ex:
+{
+	"_id" : ObjectId("57f605083cc41f6a0b8b4567"),
+	"username" : "Anurag Rane",
+	"email" : "anurag@gmail.com",
+	"pass" : "anurag",
+	"mobile" : "9745863210",
+	"address" : "B1-103 , Mahalaxmi Vihar, Pune.",
+	"type" : "user",
+	"orders" : 2,
+	"user_orders" : [
+		{
+			"order_no" : 21,
+			"qty" : [
+				{
+					"dish_id" : ObjectId("57e9761e3cc41fe8158b4571"),
+					"qty" : "1"
+				},
+				{
+					"dish_id" : ObjectId("57e975983cc41fef0a8b457d"),
+					"qty" : "1"
+				}
+			],
+			"order_date" : "06.10.16",
+			"order-time" : "13:34:27",
+			"total" : 409,
+			"order_status" : "confirmed"
+		},
+		{
+			"order_no" : 30,
+			"qty" : [
+				{
+					"dish_id" : ObjectId("57e9785c3cc41fa6128b4572"),
+					"qty" : "2"
+				}
+			],
+			"order_date" : "06.10.16",
+			"order-time" : "14:46:23",
+			"total" : 156,
+			"order_status" : "confirmed"
+		}
+	]
+}
+
+2)fooditems
+It stores the information about all the food itmes available.
+Ex:
+{
+	"_id" : ObjectId("57e975983cc41fef0a8b457d"),
+	"dish_name" : "Four Seasons",
+	"dish_desc" : "Black Olives, Spicy Jalapenos, Baby Corn, Onions ",
+	"dish_cost" : "198",
+	"category" : "Pizza"
+}
+
+##GridFS is a specification for storing and retrieving files that exceed the BSON-document size limit of 16 MB.
+##GridFS stores files in two collections:
+3)fs.chunks
+chunks stores the binary chunks.
+4)fs.files
+files stores the file’s metadata.
+
+5)order_no
+It stores the current order number.
+Ex:
+{ "_id" : ObjectId("57ed27c583fe89f4d864411b"), "no" : 34 }
+
+6)system.indexes
+
+7)tmporders
+It stores the temporary order.
+Ex:
+{
+	"_id" : ObjectId("57f87422cfea73a91e4eede2"),
+	"order_no" : 34,
+	"email" : null,
+	"qty" : [ ]
+}
+
+Steps to run the project:
